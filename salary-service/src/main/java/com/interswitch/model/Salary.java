@@ -14,10 +14,9 @@ public class Salary {
 
     private Long departmentId;
 
-    public Salary(long employeeId, BigDecimal amount, Date date) {
+    public Salary(long employeeId, BigDecimal amount) {
         this.employeeId = employeeId;
         this.amount = amount;
-        this.date = date;
     }
 
     public Long getId() {

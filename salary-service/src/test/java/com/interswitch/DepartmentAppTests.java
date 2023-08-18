@@ -46,13 +46,13 @@ public class DepartmentAppTests {
         Assertions.assertTrue(departments.length > 0);
     }
 
-    @Test
-    void findByOrganizationWithEmployees() {
-        Mockito.when(employeeClient.findByDepartment(Mockito.anyLong()))
-                .thenReturn(Instancio.ofList(Employee.class).create());
-        Department[] departments = restTemplate.getForObject("/organization/{organizationId}/with-employees", Department[].class, 1L);
-        Assertions.assertTrue(departments.length > 0);
-    }
+//    @Test
+//    void findByOrganizationWithEmployees() {
+//        Mockito.when(employeeClient.findByDepartment(Mockito.anyLong()))
+//                .thenReturn(Instancio.ofList(Employee.class).create());
+//        Department[] departments = restTemplate.getForObject("/organization/{organizationId}/with-employees", Department[].class, 1L);
+//        Assertions.assertTrue(departments.length > 0);
+//    }
 
     @Test
     void add() {

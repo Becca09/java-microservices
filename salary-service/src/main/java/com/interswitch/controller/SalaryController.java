@@ -40,6 +40,7 @@ public class SalaryController {
     public List<Salary> findAll() {
         LOGGER.info("Salary find");
         return repository.findAll();
+
     }
 
     @GetMapping("/salary/{employeeId}/with-employees")
