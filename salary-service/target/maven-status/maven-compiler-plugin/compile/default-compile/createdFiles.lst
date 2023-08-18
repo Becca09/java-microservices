@@ -1,0 +1,9 @@
+com\interswitch\client\EmployeeClient.class
+com\interswitch\model\Department.class
+com\interswitch\model\Employee.class
+com\interswitch\repository\DepartmentRepository.class
+com\interswitch\DepartmentApplication.class
+com\interswitch\controller\SalaryController.class
+com\interswitch\model\Salary.class
+com\interswitch\controller\DepartmentController.class
+com\interswitch\repository\SalaryRepository.class
