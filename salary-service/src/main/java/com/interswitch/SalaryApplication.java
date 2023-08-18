@@ -36,10 +36,10 @@ public class SalaryApplication {
 	@Bean
 	SalaryRepository repository() {
 		SalaryRepository repository = new SalaryRepository();
-		repository.add(new Salary(1L, new BigDecimal(2000), new Date()));
-		repository.add(new Salary(2L, new BigDecimal(2000), new Date()));
-		repository.add(new Salary(3L, new BigDecimal(2000), new Date()));
-		repository.add(new Salary(4L, new BigDecimal(2000), new Date()));
+		repository.add(new Salary(2L, new BigDecimal(2000)));
+		repository.add(new Salary(3L, new BigDecimal(2000)));
+		repository.add(new Salary(1L, new BigDecimal(2000)));
+		repository.add(new Salary(4L, new BigDecimal(2000)));
 		return repository;
 	}
 	
